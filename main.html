@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form>
+	<form method="post">
 		<label for="name">Name:
 			<input name="name" type="text" required id="name" placeholder="Name">
 		</label>
@@ -29,6 +29,9 @@
 		<label for=cars>Car Brands:</label>
 		<select id="cars" required>
 			<option value="" disabled selected>--Please choose an option--</option>
+			<option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Toyota">Toyota</option>
 		</select>
 		<br>
 		<label for="age">Age:
@@ -51,6 +54,7 @@
 			<input name="I agree to the TOS" type="checkbox" id="tos">
 			I agree to TOS
 		</label>
+		<button type="submit">Submit</button>
 	</form>
 
 	
